@@ -11,6 +11,7 @@ export const TOKENS = {
   jitoSOL: new PublicKey("J1toso1uCk3RLmjorhTtrVwY9HJ7X8V9yYac6Y7kGCPn"),
   bSOL: new PublicKey("bSo13r4TkiE4KumL71LsHTPpL2euBYLFx6h9HP3piy1"),
   mSOL: new PublicKey("mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"),
+  wSOL: new PublicKey("So11111111111111111111111111111111111111112"),
   BONK: new PublicKey("DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"),
 } as const;
 
@@ -33,3 +34,10 @@ export const DEFAULT_OPTIONS = {
 export const JUP_API = "https://quote-api.jup.ag/v6";
 export const JUP_REFERRAL_ADDRESS =
   "REFER4ZgmyYx9c6He5XfaTMiGfdLwRnkV4RPp9t9iF3";
+
+/**
+ * Fluxbeam constants
+ */
+export const FEE_ACCOUNT = new PublicKey(
+  "FLUXR4McuD2iXyP3wpP4XTjSWmB86ppMiyoA52UA9bKb",
+);
